@@ -1,4 +1,5 @@
 import React from "react";
+import ecommerce from "../assets/ecommerce.jpg"
 import group from '../assets/group.jpg';
 
 const Projects = () => {
@@ -7,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: "Social Workout Tracker",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+        "That helps you log workouts, create AI-powered schedules, join groups, and find workout partners to stay motivated and reach your fitness goals together",
       image: group,
       technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
       liveUrl: "https://social-workout-tracker1.onrender.com",
@@ -15,13 +16,13 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Ecommerce Website",
       description:
-        "A collaborative task management application with real-time updates",
-      image: "https://via.placeholder.com/400x250",
-      technologies: ["React", "Firebase", "Material-UI"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A custom-designed e-commerce site integrated with external APIs for products, orders, and payments",
+      image: ecommerce,
+      technologies: ["Javascript", "React", "API integration"],
+      liveUrl: "https://ecommerce-website-ebmd.onrender.com/",
+      githubUrl: "https://github.com/AnkitaMalani/Ecommerce-website",
     },
     {
       id: 3,

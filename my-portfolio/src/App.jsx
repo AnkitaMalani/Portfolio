@@ -8,9 +8,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="max-w-full md:max-w-[90%] lg:max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
       <Navbar />
-      <main className="pt-16  bg-[#0E1320]"> {/* Add padding top to account for fixed navbar */}
+      <main className="bg-[#0E1320] w-full">
         <section id="home">
           <Home />
         </section>
@@ -25,8 +25,7 @@ function App() {
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
-
 export default App;

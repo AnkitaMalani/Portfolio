@@ -1,5 +1,5 @@
-import React from 'react'
-import picture from "../assets/picture.jpg"
+import React from "react";
+import picture from "../assets/picture.jpg";
 
 const About = () => {
   return (
@@ -15,24 +15,18 @@ const About = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold mb-4">Hi, I'm a passionate developer!</h3>
             <p className="text-lg mb-6">
-              I'm a full-stack developer with a passion for creating innovative web applications. 
-              I love turning complex problems into simple, beautiful and intuitive solutions.
+              I’m a full-stack web developer with experience in building
+              responsive and interactive web applications. I enjoy turning ideas
+              into functional digital products using technologies like
+              JavaScript, React, Node.js, and modern APIs. I love learning new
+              tools, solving problems, and collaborating on projects that make
+              an impact
             </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="stat">
-                <div className="stat-value text-primary">2+</div>
-                <div className="stat-desc">Years Experience</div>
-              </div>
-              <div className="stat">
-                <div className="stat-value text-primary">10+</div>
-                <div className="stat-desc">Projects Completed</div>
-              </div>
-            </div>
+           
           </div>
         </div>
-        
+
         {/* Skills Section */}
         <div className="mt-16">
           <h3 className="text-3xl font-bold text-center mb-8">Skills</h3>
@@ -49,7 +43,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="card bg-base-200 shadow-xl">
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">Backend</h4>
@@ -62,7 +56,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="card bg-base-200 shadow-xl">
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">Tools</h4>
@@ -78,7 +72,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
