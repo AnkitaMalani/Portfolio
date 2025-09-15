@@ -26,13 +26,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather Dashboard",
+      title: "Pokemon",
       description:
-        "A responsive weather dashboard with location-based forecasts",
+        "A full-stack battle simulation game where players select Pokémon from the PokeAPI, build a roster, and engage in turn-based battles, featuring user authentication and a real-time leaderboard",
       image: "https://via.placeholder.com/400x250",
-      technologies: ["JavaScript", "Weather API", "Chart.js"],
-      liveUrl: "#",
-      githubUrl: "#",
+      technologies: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
+      liveUrl: "https://pokemon-fgbx.onrender.com",
+      githubUrl: "https://github.com/AnkitaMalani/Pokemon-mono",
     },
     {
       id: 4,
