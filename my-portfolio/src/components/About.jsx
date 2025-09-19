@@ -31,7 +31,7 @@ const About = () => {
         <div className="mt-16">
           <h3 className="text-3xl font-bold text-center mb-8">Skills</h3>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="card bg-base-200 shadow-xl">
+            <div className="card bg-[#20273b] shadow-xl">
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">Frontend</h4>
                 <div className="flex flex-wrap gap-2 justify-center">
@@ -44,7 +44,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="card bg-base-200 shadow-xl">
+            <div className="card bg-[#20273b] shadow-xl ">
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">Backend</h4>
                 <div className="flex flex-wrap gap-2 justify-center">
@@ -57,7 +57,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="card bg-base-200 shadow-xl">
+            <div className="card bg-[#20273b] shadow-xl">
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">Tools</h4>
                 <div className="flex flex-wrap gap-2 justify-center">

@@ -1,6 +1,7 @@
 import React from "react";
 import ecommerce from "../assets/ecommerce.jpg"
 import group from '../assets/group.jpg';
+import pokemon from '../assets/pokemon.jpg'
 
 const Projects = () => {
   const projects = [
@@ -28,8 +29,8 @@ const Projects = () => {
       id: 3,
       title: "Pokemon",
       description:
-        "A full-stack battle simulation game where players select Pokémon from the PokeAPI, build a roster, and engage in turn-based battles, featuring user authentication and a real-time leaderboard",
-      image: "https://via.placeholder.com/400x250",
+        "A full-stack turn-based Pokémon battle simulator with PokeAPI-powered rosters, user authentication, real-time battles, and a live leaderboard.",
+      image: pokemon,
       technologies: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB"],
       liveUrl: "https://pokemon-fgbx.onrender.com",
       githubUrl: "https://github.com/AnkitaMalani/Pokemon-mono",
@@ -109,7 +110,7 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="#" className="btn btn-outline btn-lg">
+          <a href="https://github.com/AnkitaMalani" className="btn btn-outline btn-lg">
             View All Projects on GitHub
           </a>
         </div>
