@@ -101,7 +101,7 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://github.com/AnkitaMalani" className="btn btn-outline btn-lg">
+          <a href="https://github.com/AnkitaMalani" className="btn btn-outline btn-sm hover:bg-[#CBACF9] border-[#CBACF9]">
             View All Projects on GitHub
           </a>
         </div>

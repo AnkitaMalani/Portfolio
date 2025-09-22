@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import resume from "../assets/resume.pdf";
 
 const Home = () => {
   return (
@@ -8,16 +9,21 @@ const Home = () => {
           <p>Hello, I'm</p>
           <h1 className="text-5xl font-bold text-white">Ankita Malani</h1>
           <p className="py-6 text-lg text-white/90">
-           I build responsive and dynamic web applications using modern technologies. Passionate about creating seamless user experiences and scalable backends
+            I build responsive and dynamic web applications using modern
+            technologies. Passionate about creating seamless user experiences
+            and scalable backends
           </p>
-          <div className="flex gap-4 justify-center">
-            <button className="btn btn-outline border-[#CBACF9] hover:bg-[#CBACF9]">View My Work</button>
-            <button className="btn btn-outline  border-[#CBACF9] hover:bg-[#CBACF9]">Download CV</button>
+          <div className="flex justify-center">
+            <a href={resume}>
+              <button className="btn btn-outline  border-[#CBACF9] hover:bg-[#CBACF9]">
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
