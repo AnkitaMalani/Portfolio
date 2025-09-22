@@ -100,7 +100,7 @@ const Contact = () => {
               <h3 className="card-title mb-4 text-black">Send me a message</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="form-control">
-                  <label className="label">
+                  <label className="label w-full">
                     <span className="label-text text-black">Name</span>
                   </label>
                   <input
@@ -114,7 +114,7 @@ const Contact = () => {
                 </div>
 
                 <div className="form-control">
-                  <label className="label">
+                  <label className="label w-full">
                     <span className="label-text text-black">Email</span>
                   </label>
                   <input
@@ -128,7 +128,7 @@ const Contact = () => {
                 </div>
 
                 <div className="form-control">
-                  <label className="label">
+                  <label className="label w-full">
                     <span className="label-text text-black">Message</span>
                   </label>
                   <textarea

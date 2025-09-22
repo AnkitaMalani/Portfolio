@@ -35,16 +35,7 @@ const Projects = () => {
       liveUrl: "https://pokemon-fgbx.onrender.com",
       githubUrl: "https://github.com/AnkitaMalani/Pokemon-mono",
     },
-    {
-      id: 4,
-      title: "Blog Platform",
-      description:
-        "A modern blog platform with admin panel and content management",
-      image: "https://via.placeholder.com/400x250",
-      technologies: ["Next.js", "PostgreSQL", "Prisma"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
+  
   ];
 
   return (
